@@ -196,7 +196,7 @@ and open the template in the editor.
                             <li>SPRING IOC</li>
                             <li>SPRING AOP</li>
                             <li>SPRING JDBC</li>
-                            <li>SPRING JOOMLA</li>
+                            <li>JOOMLA</li>
                         </ul>
                    </div>
                    <div class="lower">
@@ -204,8 +204,6 @@ and open the template in the editor.
                         <ul style="list-style-type:disc">
                             <li>MYSQL</li>
                             <li>ORACLE</li>
-                            <li>MONGODB</li>
-                            <li>CASSANDRA</li>
                             <li>GIT</li>
                             <li>MAVEN</li>
                             <li>ECLIPSE</li>
