@@ -201,6 +201,7 @@ div#myCarousel.carousel.slide{
     background-color: #ddd;
     float:right;
     margin-top:10px;
+    font-weight: bold;
 }
 .skills {
     text-align: left;
@@ -224,10 +225,10 @@ div#myCarousel.carousel.slide{
 .js {width: 75%; background-color: #f44336;}
 .jquery {width: 70%; background-color: #7FFF00;}
 .ajax{width: 70%; background-color: #DC143C;}
-.php {width: 80%; background-color: #FFA500;}
-.python {width: 60%; background-color: #8B008B;}
-.java {width: 63%; background-color: #BC8F8F;}
-.git {width: 80%; background-color: #6495ED;}
+.node {width: 70%; background-color: #FFA500;}
+.angular {width: 60%; background-color: #8B008B;}
+.react {width: 60%; background-color: #BC8F8F;}
+.jest {width: 75%; background-color: #6495ED;}
 
 /* ==========================================================================
    05. Experience
@@ -285,7 +286,7 @@ div#myCarousel.carousel.slide{
     position: relative;
     padding: 20px 30px;
     float: right;
-    margin-top: 39px;
+    margin-top: 28px;
     margin-bottom:6%;
 }
 .experience .content h5 {
