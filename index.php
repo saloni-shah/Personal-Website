@@ -25,6 +25,9 @@
                 $(".item4").click(function () {
                     $("#myCarousel").carousel(3);
                 });
+                $(".item5").click(function () {
+                    $("#myCarousel").carousel(4);
+                });
 
                 // Enable Carousel Controls
                 $(".left").click(function () {
@@ -76,8 +79,9 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="item1 active">Home</li>
                         <li class="item2">About me</li>
-                        <li class="item3">Experience</li>
-                        <li class="item4">Education</li>
+                        <li class="item3">Portfolio</li>
+                        <li class="item4">Experience</li>
+                        <li class="item5">Education</li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -178,6 +182,89 @@ When I am not in front of my computer, I love to dance, travel and do some commu
                 <div class='item'>
                     <section id="section3" style='padding-top:30px;'>
                         <div class="container">
+                            <h2>My Portfolio</h2>
+                            <div class="portfolio">
+                                <div class="portfolio clearfix">
+                                    <div class="block">
+                                        <span class="projectname">Multiuser Chat Application</span>
+                                        <span class="work">
+                                            <p>Public chat room where users can chat with each other
+                                            <br/>
+                                            <b>Purpose:</b> <br/> 
+                                            
+                                            To learn and experiment with NodeJS, Express and Socket.io. I am planning to improve the UI using React and will also add more features like personal chat, multiple chat room etc.</p>
+                                        
+                                            <p style="color: orangered;">
+                                                Tech Spec: Socket.io, Express, Node.js 
+                                            </p>
+                                            <p style="color: orangered;">
+                                                <a href="http://cs557b-chat-application.herokuapp.com/">Live Demo</a> |
+                                                <a href="https://github.com/saloni-shah/chat-application-nodejs">GitHub</a>
+                                            </p>
+                                        </span>
+                                    </div> 
+                                    <div class="block">
+                                        <span class="projectname">X-Cell App</span>
+                                        <span class="work">
+                                            <p>Tiny spreadsheet app which supports sum of a column, Add and highlight of row and column
+                                             <br/>
+                                            <b>Purpose:</b> <br/> 
+                                            To learn ES6 features and explore Jest for testing. I am plannig to expand this by adding more excel like features.</p>
+                                            <p style="color: orangered;">
+                                                Tech Spec: : ES6, Node.js, Express, Jest, HTML, CSS 
+                                            </p>
+                                            <p style="color: orangered;">
+                                                <a href="https://aqueous-sierra-25911.herokuapp.com/">Live Demo</a> |
+                                                <a href="https://github.com/saloni-shah/X-Cell-Sum">GitHub</a>
+                                            </p>
+                                        </span>
+                                    </div> 
+                                    
+                                </div> 
+
+                                <div class="portfolio clearfix">
+                                    <div class="block">
+                                        <span class="projectname">BookCart App</span>
+                                        <span class="work">
+                                            <p>Single page application for search, filter and buy collection of books
+                                            <br/>
+                                            <b>Purpose:</b> <br/> 
+                                            To explore AngularJS and Object Oriented JavaScript
+                                            </p>
+                                        
+                                            <p style="color: orangered;">
+                                                Tech Spec: AngularJS concepts, Object Oriented JavaScript, HTML, Bootstrap
+                                            </p>
+                                            <p style="color: orangered;">
+                                                <a href="https://github.com/saloni-shah/bookCart-angularJs">GitHub</a>
+                                            </p>
+                                        </span>
+                                    </div> 
+                                    <div class="block">
+                                        <span class="projectname">Invitar</span>
+                                        <span class="work">
+                                            <p>Event Invitaiton App
+                                            <br/>
+                                            <b>Purpose:</b> <br/> 
+                                            This was a capstone project to apply and learn more about the web development skills leraned during the masters
+                                            </p>
+                                           
+                                            <p style="color: orangered;">
+                                                Tech Spec: AngularJS, HTML5, Bootstrap, Social Auth, Google+ API, Java, MySQL, Tomcat, Git
+                                            </p>
+                                            <p style="color: orangered;">
+                                                <a href="https://github.com/saloni-shah/project">GitHub</a>
+                                            </p>
+                                        </span>
+                                    </div>                                    
+                                </div>
+                            </div> <!-- end .experience-timeline -->
+                        </div> <!-- end .container -->
+                    </section> <!-- end #section3 -->
+                </div>
+                <div class='item'>
+                    <section id="section4" style='padding-top:30px;'>
+                        <div class="container">
                             <h2>3 Years of Experience</h2>
                             <div class="experience">
                                 <div class="experience clearfix">
@@ -221,7 +308,7 @@ When I am not in front of my computer, I love to dance, travel and do some commu
                     </section> <!-- end #section3 -->
                 </div>
                 <div class='item'>
-                    <section id="section4" style='padding-top:30px;'>
+                    <section id="section5" style='padding-top:30px;'>
                         <div class="container">
                             <h2>Education</h2>
                             <div class="education clearfix">

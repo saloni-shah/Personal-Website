@@ -231,7 +231,108 @@ div#myCarousel.carousel.slide{
 .jest {width: 75%; background-color: #6495ED;}
 
 /* ==========================================================================
-   05. Experience
+   05. Portfolio
+   ========================================================================== */
+#section3{
+    padding-top: 0px !important;
+}
+.content ul{
+    width : 49%;
+    display: inline-block;
+}
+.content .npu_experience{
+    width : 49%;
+    display: inline;
+}
+.portfolio {
+    position: relative;
+}
+.portfolio .line {
+    display: block;
+    height: 100%;
+    width: 5px;
+    border-left: 2px dashed #4d4d4d;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+.portfolio .block {
+    width: 40%;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+    position: relative;
+    float: left;
+    margin-left: 85px;
+}
+.portfolio div:nth-of-type(1) {
+    margin-bottom: 0% !important;
+}
+.portfolio div:nth-of-type(2) {
+    margin-bottom: 5% !important;
+}
+.portfolio .block .projectname {
+    display: block;
+    background: orangered;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.portfolio .block .work {
+    display: block;
+    background: #fff;
+    color: #232323;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 2px 10px;
+}
+.portfolio .content {
+    width: 60%;
+    box-shadow: 0 9px 9px rgba(0,0,255,0.3);
+    background: #fff;
+    position: relative;
+    padding: 20px 30px;
+    float: right;
+    margin-top: 28px;
+    margin-bottom:6%;
+}
+.portfolio .content h5 {
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+@media all and (max-width: 768px) {
+    .experience .line {
+        left: 38px;
+    }
+    .portfolio .block {
+        width: 60%;
+        float: right;
+        margin-top: 12px;
+    }
+    .portfolio .block:after {
+        border-width: 0 10px 13px 0;
+        border-color: transparent #7c4dff transparent transparent;
+        right: auto;
+        left: -10px;
+    }
+    .portfolio .content {
+        margin-top: 12px;
+        width: 80%;
+        padding: 10px 20px;
+    }
+    .portfolio .content:after {
+        border-width: 10px 0 0 13px;
+        border-color: transparent transparent transparent #fff;
+        top: -10px;
+        left: 0;
+    }
+}
+
+/* ==========================================================================
+   06. Experience
    ========================================================================== */
 .content ul{
     width : 49%;
@@ -323,7 +424,7 @@ div#myCarousel.carousel.slide{
     }
 }
 /* ==========================================================================
-   06. Education
+   07. Education
    ========================================================================== */
 
 .education {
