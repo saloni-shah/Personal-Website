@@ -25,6 +25,9 @@
                 $(".item4").click(function () {
                     $("#myCarousel").carousel(3);
                 });
+                $(".item5").click(function () {
+                    $("#myCarousel").carousel(4);
+                });
 
                 // Enable Carousel Controls
                 $(".left").click(function () {
@@ -76,8 +79,9 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="item1 active">Home</li>
                         <li class="item2">About me</li>
-                        <li class="item3">Experience</li>
-                        <li class="item4">Education</li>
+                        <li class="item3">Portfolio</li>
+                        <li class="item4">Experience</li>
+                        <li class="item5">Education</li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -91,15 +95,12 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <h2>
-                                        <strong id="hi">Hi,</strong> I’m a Front End Developer.
-                                        I love to create interactive, responsive and easy to use web UI.
+                                        <strong id="hi">Hi,</strong> I’m a Front End Developer who
+                                         love to create interactive, responsive and easy to use web UI.
                                     </h2>
                                     <br>
                                     <div class="button">
                                         <button class="item2 btneffect" style="vertical-align:middle"><span>More About me</span></button>
-                                    </div>
-                                    <div class="warning">
-                                        <b><p align="left">Note: I am actively improving this site and using it as my project to improve my UI Skills.</p></b>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -123,31 +124,31 @@
                                         <span>Master </span>
                                     </div>
                                     <div class="box-container">
-                                        <div class="skills html" id="htmlabc">HTML5</div>
+                                        <div class="skills html" id="htmlId">HTML5</div>
                                     </div>
                                     <div class="box-container">
                                         <div class="skills css">CSS3+Bootstrap</div>
                                     </div>
                                     <div class="box-container">
-                                        <div class="skills js">Javascript</div>
+                                        <div class="skills js">Javascript+ES6</div>
+                                    </div>
+                                    <div class="box-container">
+                                        <div class="skills node">NodeJS+Express</div>
+                                    </div>
+                                    <div class="box-container">
+                                        <div class="skills angular">AngularJS</div>
+                                    </div>
+                                    <div class="box-container">
+                                        <div class="skills react">React</div>
+                                    </div>
+                                    <div class="box-container">
+                                        <div class="skills jest">Jest</div>
                                     </div>
                                     <div class="box-container">
                                         <div class="skills jquery">jQuery</div>
                                     </div>
                                     <div class="box-container">
                                         <div class="skills ajax">AJAX</div>
-                                    </div>
-                                    <div class="box-container">
-                                        <div class="skills php">Php</div>
-                                    </div>
-                                    <div class="box-container">
-                                        <div class="skills python">Python</div>
-                                    </div>
-                                    <div class="box-container">
-                                        <div class="skills java">Java</div>
-                                    </div>
-                                    <div class="box-container">
-                                        <div class="skills git">Git</div>
                                     </div>
                                     <div class="skillmsg">
                                         <span>*This list is not Exhaustive*</span>
@@ -157,17 +158,17 @@
                                     <h3>My Story</h3>
                                     <p><b>Seeking a front-end development opportunity</b></p>
                                     <p>I am a performance driven and skilled engineer with good academic record looking for a challenging front end development opportunity to advance the career.
-                                        With a Master’s degree in Computer Science, and 3 years of hands-on experience in using web development technologies, I am confident that I will be an asset to any organization.
+                                        With a Master’s degree in Computer Science, and 3 years of hands-on experience in web development, I am confident that I will be an asset to any organization.
                                     </p>
                                     <p>
-                                        I enjoy being challenged and working on projects that require me to work outside my comfort and knowledge set. Problem solving is a challenge that I have always loved. During this journey I have acquired some front end development skills and I 
-                                        always look forward to learn more things.
+                                        I enjoy being challenged and working on projects that require me to work outside my comfort zone. Problem solving is a challenge that I have always loved. And during this journey I have acquired some front end development skills and I 
+                                        always look forward to learning more things.
                                     </p>
                                     <p>
-                                        Currently I am teaching myself, React and other advanced JavaScript Concepts through online courses like Udacity and Safari Books Online. When I am not in front of my computer, I love to dance, travel and do some community work.
+When I am not in front of my computer, I love to dance, travel and do some community work.
                                     </p>
                                     <p>
-                                        Please checkout my linkedin profile and Github account for all my project work.
+                                        Please checkout portfolio section for all my project work.
                                     </p>
                                     <br>
                                     <div class="button">
@@ -181,6 +182,89 @@
                 <div class='item'>
                     <section id="section3" style='padding-top:30px;'>
                         <div class="container">
+                            <h2>My Portfolio</h2>
+                            <div class="portfolio">
+                                <div class="portfolio clearfix">
+                                    <div class="block">
+                                        <span class="projectname">Multiuser Chat Application</span>
+                                        <span class="work">
+                                            <p>Public chat room where users can chat with each other
+                                            <br/>
+                                            <b>Purpose:</b> <br/> 
+                                            
+                                            To learn and experiment with NodeJS, Express and Socket.io. I am planning to improve the UI using React and will also add more features like personal chat, multiple chat room etc.</p>
+                                        
+                                            <p style="color: orangered;">
+                                                Tech Spec: Socket.io, Express, Node.js 
+                                            </p>
+                                            <p style="color: orangered;">
+                                                <a href="http://cs557b-chat-application.herokuapp.com/">Live Demo</a> |
+                                                <a href="https://github.com/saloni-shah/chat-application-nodejs">GitHub</a>
+                                            </p>
+                                        </span>
+                                    </div> 
+                                    <div class="block">
+                                        <span class="projectname">X-Cell App</span>
+                                        <span class="work">
+                                            <p>Tiny spreadsheet app which supports sum of a column, Add and highlight of row and column
+                                             <br/>
+                                            <b>Purpose:</b> <br/> 
+                                            To learn ES6 features and explore Jest for testing. I am plannig to expand this by adding more excel like features.</p>
+                                            <p style="color: orangered;">
+                                                Tech Spec: : ES6, Node.js, Express, Jest, HTML, CSS 
+                                            </p>
+                                            <p style="color: orangered;">
+                                                <a href="https://aqueous-sierra-25911.herokuapp.com/">Live Demo</a> |
+                                                <a href="https://github.com/saloni-shah/X-Cell-Sum">GitHub</a>
+                                            </p>
+                                        </span>
+                                    </div> 
+                                    
+                                </div> 
+
+                                <div class="portfolio clearfix">
+                                    <div class="block">
+                                        <span class="projectname">BookCart App</span>
+                                        <span class="work">
+                                            <p>Single page application for search, filter and buy collection of books
+                                            <br/>
+                                            <b>Purpose:</b> <br/> 
+                                            To explore AngularJS and Object Oriented JavaScript
+                                            </p>
+                                        
+                                            <p style="color: orangered;">
+                                                Tech Spec: AngularJS concepts, Object Oriented JavaScript, HTML, Bootstrap
+                                            </p>
+                                            <p style="color: orangered;">
+                                                <a href="https://github.com/saloni-shah/bookCart-angularJs">GitHub</a>
+                                            </p>
+                                        </span>
+                                    </div> 
+                                    <div class="block">
+                                        <span class="projectname">Invitar</span>
+                                        <span class="work">
+                                            <p>Event Invitaiton App
+                                            <br/>
+                                            <b>Purpose:</b> <br/> 
+                                            This was a capstone project to apply and learn more about the web development skills leraned during the masters
+                                            </p>
+                                           
+                                            <p style="color: orangered;">
+                                                Tech Spec: AngularJS, HTML5, Bootstrap, Social Auth, Google+ API, Java, MySQL, Tomcat, Git
+                                            </p>
+                                            <p style="color: orangered;">
+                                                <a href="https://github.com/saloni-shah/project">GitHub</a>
+                                            </p>
+                                        </span>
+                                    </div>                                    
+                                </div>
+                            </div> <!-- end .experience-timeline -->
+                        </div> <!-- end .container -->
+                    </section> <!-- end #section3 -->
+                </div>
+                <div class='item'>
+                    <section id="section4" style='padding-top:30px;'>
+                        <div class="container">
                             <h2>3 Years of Experience</h2>
                             <div class="experience">
                                 <div class="experience clearfix">
@@ -191,60 +275,16 @@
                                     <div class="content">
                                         <h5>Software Engineer Intern</h5>
                                         <p align="justify">
-                                            I joined Calix as an intern for a team responsible for maintaining company’s internal automation framework. 
-                                            I developed an interactive UI for the framework to help my team members to easily choose from different configurations to run the tests and compare different test results.
+                                            I joined Calix as an intern for a team responsible for maintaining company’s internal automation framework.
+                                            I developed an interactive and easy to operate web based UI, replacing manual configuration selection and results comparison resulting in 20% higher velocity of the team. I also participated in SCRUM and Sprint planning meetings.
                                         </p>
                                         <p align="justify">
-                                            I also contributed to the data migration project using python which will parse the legacy test data from files and store into Mysql. This will allow my team to build different performance reports for different hardware.
+                                            I also contributed to the data migration project using python which will parse the legacy test data from files and store into Mysql. This will allow my team to build different performance reports for different hardware devices.
                                         </p>
                                         <p align="justify" style="color: orangered;">
-                                            PYTHON,  PHP, JavaScript, jQuery, AJAX, HTML, CSS, Bootstrap, Mysql, Vmware, Git
+                                            JavaScript, jQuery, AJAX, HTML, Bootstrap, PHP, Python, MySql, VMWare, Git
                                         </p>
                                     </div>
-                                    <div class="line"></div>
-                                </div> 
-
-                                <div class="experience clearfix">
-                                    <div class="block">
-                                        <span class="year">Sept 2015 - Dec 2016</span>
-                                        <span class="company">NorthWestern PolyTechnic University</span>
-                                    </div> 
-                                    <div class="content">
-                                        <h5>Masters in Computer Science</h5>
-                                        <p align="justify">
-                                            I joined NPU in 2015 and I learned some new Technologies. I did some small projects using those technogies during my various courses.
-                                        </p>
-                                        <p align="justify">
-                                            <b>Invitar:</b>
-                                        </p>
-                                        <p align="justify">
-                                            • Designed event invitation templates and their preview screen using AngularJS, HTML5 and Bootstrap
-                                        </p>
-                                        <p align="justify">
-                                            • Implemented REST APIs for event management using Spring MVC 
-                                        </p>
-                                        <p align="justify">
-                                            • Enabled users to send invitations to their google contacts through Social Auth and Google+ API
-                                        </p>
-                                        <p>
-                                            <b>Key Outcomes:</b> AngularJS, HTML5, Bootstrap, Spring, MySQL, Tomcat, Git
-                                        </p>
-                                        <p align="justify">
-                                            <b><a href="http://cs557b-chat-application.herokuapp.com/">Chat Application</a></b>
-                                        </p>
-                                        <p align="justify">
-                                            • Socket.IO with Node.js and Javascript
-                                        </p>
-                                        <p align="justify">
-                                            <b><a href="http://cs557b-canvas-bouncingball-app.herokuapp.com/">Bouncing Ball</a></b>
-                                        </p>
-                                        <p align="justify">									
-                                            • HTML5 Canvas and Javascript
-                                        </p>
-                                        <p align="justify" style="color: orangered;">
-                                            Java, Spring, REST Services, Jsp, Servlet, Design Pattern, JDBC, MySql, AngularJS, Node.js, jQuery, Bootstrap, HTML5, CSS,
-                                        </p>
-                                    </div> 
                                     <div class="line"></div>
                                 </div> 
 
@@ -254,16 +294,11 @@
                                         <span class="company">Tailored Solutionts Pvt. Ltd.</span>
                                     </div> 
                                     <div class="content">
-                                        <h5>PHP Software Developer</h5>
+                                        <h5>Software Engineer</h5>
                                         <p align="justify">
-                                            I started as a PHP Software Engineer for a backend team building client’s websites,  custom modules and plugins in php/joomla.
-                                            Initially I worked on small tasks in core php  and  then I joined  joomla team and made various custom modules i.e.  search,authentication etc.
-                                        </p>
-                                        <p align="justify">
-                                            After completing one year I was moved to company’s core product team to build custom jomsocial,k2,sobipro,jbolo extensions for joomla based mobile apps.
-                                        </p>
+                                           During my first year I worked on developing web ui for customers using Html, css, javascript, ajax and php. Company also has a product calls iJoomer advance. So after my first year, I was working with that team to build components, modules/plugins and custom extensions like JomSocial, K2, Sobipro and JBolo for mobile apps and that helped company to generate more revenue.
                                         <p align="justify" style="color: orangered;">
-                                            Joomla CMS, PHP, JavaScript, jQuery, AJAX, HTML, CSS, Bootstrap, Mysql, Svn
+                                            HTML, CSS, JavaScript, AJAX, PHP, Joomla CMS, MySql
                                         </p>
                                     </div>
                                     <div class="line"></div>
@@ -273,7 +308,7 @@
                     </section> <!-- end #section3 -->
                 </div>
                 <div class='item'>
-                    <section id="section4" style='padding-top:30px;'>
+                    <section id="section5" style='padding-top:30px;'>
                         <div class="container">
                             <h2>Education</h2>
                             <div class="education clearfix">
@@ -289,19 +324,19 @@
                                 <div class="item">
                                     <div class="marker"></div>
                                     <div class="content" style='top:1px; height: 150px;'>
-                                        <span>Online Courses</span>
-                                        <h4>Udacity/Safari Online Courses</h4>
+                                        <span>Northwestern Polytechnic University, CA</span>
+                                        <h4>Master of Science in Computer Science</h4>
                                     </div>
-                                    <div class="year">2016 - Present</div>
+                                    <div class="year">2015 - 2016</div>
                                 </div> 
 
                                 <div class="item">
                                     <div class="marker"></div>
                                     <div class="content" style='bottom:1px; height: 150px;'>
-                                        <span>Northwestern Polytechnic University, CA</span>
-                                        <h4>Master of Science in Computer Science</h4>
+                                        <span>Online Courses</span>
+                                        <h4>Udemy/Safari Online Courses</h4>
                                     </div>
-                                    <div class="year">2015 - 2016</div>
+                                    <div class="year">2016 - Present</div>
                                 </div>
                                 <div class="line"></div>
                             </div>
@@ -314,14 +349,15 @@
                                     <h5></h5>
                                     <ul style="list-style-type:disc">
                                         <li>Advanced Structured Programming and Algorithms</li>
-                                        <li>Web Front-end Programming for Mobile Devices
-                                        <li>Data Modeling and Implementation Techniques</li>
+                                        <li>Web Front-end Programming for Mobile Devices</li>
+                                        <li>Web Services Techniques and REST Technologies</li>
                                         <li>Advanced Internet Programming and Design</li>
                                     </ul>
                                     <ul style="list-style-type:disc">
                                         <li>Mobile Applications on iPhone Platform</li>
                                         <li>Big Data Processing - MapReduce Programming</li>
-                                        <li>Web Services Techniques and REST Technologies</li>
+                                        <li>Data Modeling and Implementation Techniques</li>
+                                        
                                         <li>Software Quality Assurance and Test Automation</li>
                                     </ul>
                                 </div>
@@ -330,14 +366,15 @@
 
                             <div class="experience clearfix">
                                 <div class="block">
-                                    <span class="year">Udacity/Safari</span>
+                                    <span class="year">Udemy/Safari</span>
                                 </div> 
                                 <div class="content">
                                     <h5></h5>
                                     <ul style="list-style-type:disc">
-                                        <li>Object Oriented Javascript</li>
-										<li>Mastering CSS</li>
-                                        <li>React.js</li>	
+                                        <li>React Development for Beginners</li>
+                                        <li>Mastering CSS</li>
+                                        <li>The complete NodeJS course</li>
+                                        <li>Quick Start AngularJS</li>  
                                     </ul>
                                 </div>
                                 <div class="line"></div>
@@ -345,7 +382,7 @@
                         </div> <!-- end .experience-timeline -->
                     </section> <!-- end #section4 -->
                 </div>
-            </div>	
+            </div>  
             <div class="section-arrow">
                 <div class="container">
                     <div class="row">
@@ -380,22 +417,15 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
-                                <h4>Address</h4>
-                                <p>San Rafael, CA-USA</p>
-                            </div>
-                            <div class="col-md-4">
+                            <div class="col-md-12">
                                 <h4>Connect</h4>
                                 <p>
                                 <div class="social-icon">
                                     <a href="https://www.linkedin.com/in/saloni-shah-0b9011111" class="social-icon"><i class="fa fa-linkedin"></i></a>
                                     <a href="https://github.com/saloni-shah" class="social-icon"><i class="fa fa-github fa-2x"></i></a>
+                                    <a href="mailto:saloni.shah281@gmail.com" class="social-icon"><i class="fa fa-envelope"></i></a>
                                 </div>
                                 </p>
-                            </div>
-                            <div class="col-md-4">
-                                <h4>Contact</h4>
-                                <p>Mail:saloni.shah281@gmail.com</p>
                             </div>
                         </div>
                     </div>
